@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset
+        {
+            width: 500px;
+        }
+        form{
+            background-color: aqua;
+        }
+    </style> 
+</head>
+<body>
+    <center>
+        <fieldset>
+            <legend> <mark>PERSONAL INFORMATION</mark></legend>
+            <form action="" method="post">
+                <table style="color: black;">
+                    <tr>
+                        <td><label for="">FIRST NAME</label></td>
+                        <td><input type="text" name="fname" value="" pattern="[a-zA-Z]{3-5}" title="3 to 5 characters only" s></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">LAST NAME</label></td>
+                        <td><input type="text" name="lname" value=""></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">EMAIL</label></td>
+                        <td><input type="email" name="fname" value=""></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">KNOWN LANGUAGES </label></td>
+                        <td><input type="checkbox"> HINDI
+                            <input type="checkbox" checked>ENGLISH
+                            <input type="checkbox"> GUJARATI
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>GENDER</td>
+                        <td>
+                            <input type="radio" name="MALE">MALE
+                            <input type="radio" name="MALE">FEMALE
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>SELECT ITEM</td>
+                        <td> <select name="" id="">
+                            <option value="" disabled>item1</option>
+                            <option value="">item2</option>
+                            <option value="">item3</option>
+                        </select></td>
+                    </tr>
+                    <tr>
+                        <td>UPLOAD FILE</td>
+                        <td><input type="file" multiple></td>
+                    </tr>
+                    <tr>
+                        <td>SELECT COLOR</td>
+                        <td><input type="color"></td>
+                    </tr>
+                    <tr>
+                        <td>SELECT RANGE</td>
+                        <td><input type="range" max="10%"></td>
+                    </tr>
+                    <tr>
+                        <td>SELECT COLOR</td>
+                        <td><input type="color"></td>
+                    </tr>
+                    <tr>
+                        <td>ADDRESS</td>
+                        <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit"></td>
+                        <td><input type="reset"></td>
+                    </tr>
+                 </table>
+            </form>
+        </fieldset>
+    </center>
+</body>
+</html>
